@@ -1,5 +1,5 @@
 /* =============================================
-  FORT CRAZYPANTS — Premium Ecommerce Site
+  EVERY LITTLE THING — Premium Ecommerce Site
    Brand: Navy · Royal · White · Hot Pink
    ============================================= */
 
@@ -100,9 +100,20 @@ body {
 .logo {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 0.25rem;
   text-decoration: none;
   color: inherit;
+  flex: 1;
+}
+
+.header-utils.right {
+  justify-content: flex-end;
+}
+.logo-image {
+  display: block;
+  width: min(260px, 36vw);
+  height: auto;
 }
 .logo-text {
   display: flex;
@@ -134,6 +145,7 @@ body {
   display: flex;
   align-items: center;
   gap: 1.1rem;
+  flex: 1;
 }
 .header-utils a {
   color: var(--navy);
@@ -1122,9 +1134,7 @@ body {
   gap: 0.5rem;
   margin-bottom: 1.25rem;
 }
-.footer-brand .logo-main { color: var(--white); font-size: 1.1rem; }
-.footer-brand .logo-text { align-items: center; text-align: center; }
-.footer-brand .logo-sub { color: rgba(255,255,255,0.4); }
+.footer-brand .logo-image { width: min(220px, 60vw); filter: brightness(0) invert(1); }
 .footer-tagline {
   font-size: 0.85rem;
   line-height: 1.65;

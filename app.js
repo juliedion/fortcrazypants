@@ -1,5 +1,5 @@
 /* =============================================
-  FORT CRAZYPANTS — App Logic
+  EVERY LITTLE THING — App Logic
    ============================================= */
 
 // ── HEADER SCROLL EFFECT ──
@@ -146,5 +146,5 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
   });
 });
 
-console.log('%c Fort Crazypants 🎁 ', 'background:#0a1628;color:#ff2d78;font-size:18px;font-weight:bold;padding:8px 16px;border-radius:4px;');
+console.log('%c Every Little Thing 🎁 ', 'background:#0a1628;color:#ff2d78;font-size:18px;font-weight:bold;padding:8px 16px;border-radius:4px;');
 console.log('%c Built with ❤️ — Curated Marketplace', 'color:#1a3a8f;font-size:12px;');
